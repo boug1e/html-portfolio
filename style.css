@@ -1,0 +1,77 @@
+/* Color Palette:
+    light grey: #222831
+    dark grey: #31363F
+    white: #EEEEEE
+    aqua: #76ABAE
+
+    section border radius: 100%
+    other radius: 5px
+*/
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: #222831;
+    color: #EEEEEE;
+}
+
+.box {
+    position: relative;
+    border: 1px solid #76ABAE;
+    border-radius: 15px;
+    padding: 10px 25px;
+    padding: 10px 25px;
+    margin: 5px 25% 5px 25%;
+}
+
+header {
+    background-color: #31363F; 
+    text-align: center;
+}
+
+header a img {
+    position: relative;
+    display: inline-block;
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    border: 0;
+}
+
+img {
+    display: block;
+    width: 25%;
+    height: 25%;
+    margin: auto;
+        margin-top: 15px;
+    border-radius: 100%;
+    border: 1px solid #76ABAE;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+h2 {
+    text-transform: uppercase;
+    background-color: #76ABAE;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+mark {
+    color: #EEEEEE;
+    font-weight: bold;
+    padding: 1px 5px;
+    border-radius: 5px;
+    background-color: #76ABAE;
+}
+
+#contact-info {
+    font-weight: lighter;
+}
+
+#info {
+    background-color: #31363F;
+}

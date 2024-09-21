@@ -1,45 +1,60 @@
-<!-- TODO 1: Create the HTML Boilerplate -->
-
-<!-- TODO 2: Add Your previous projects' HTML into the public folder -->
-
-<!-- TODO 3: Take screenshots of your project previews and add the images to the images folder -->
-
-<!-- TODO 4: Add titles/subtitles etc. -->
-
-<!-- TODO 5: Add a link to the project pages -->
-
-<!-- TODO 6: Add images to show the project previews
-HINT for TODO 6: You can use the height attribute set to 200 to make the image smaller:
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
-
-<!-- TODO 7: Add the Contact Me and About Me page links -->
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My Portfolio</title>
-    </head>
-    <body>
-        <header>
-            <h1>Mason Bourgeois's Portfolio</h1>
-            <h2>I'm a Software Engineer Student attending LSU.</h2>
-        </header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Mason's Portfolio</title>
+</head>
+<body>
+    <header class="box">
+        <img src="./assets/images/me.png" height="300" alt="Picture of Mason(me)" />
+        <h1>Mason Bourgeois</h1>
+        <h3 id="contact-info">Gonzales, LA | (225) 978-8998 | mbourgeois20783@gmail.com</h2>
+        <a href="https://github.com/boug1e" target="_blank" rel="noopener noreferrer">
+            <img src="./assets/images/github.png" />
+        </a>
+        <a href="https://www.linkedin.com/in/mason-bourgeois-747090269/" target="_blank" rel="noopener noreferrer">
+            <img src="./assets/images/linkedin.png" />
+        </a>    
+    </header>
+    <br />
+    <div id="info" class="box">
+    <education>
+        <h2>Education 🧑‍🎓</h2>
         <hr />
-        <projects>
-            <project1>
-                <h2><a href="./public/movie-ranking.html">Movie Ranking Project</a></h2>
-                <img src="./assets/images/movie-ranking.png" width="400" alt="Movie ranking project preview" />    
-            </project1>
-            <project2>
-                <h2><a href="./public/birthday-invite.html">Birthday Invite Project</a></h2>
-                <img src="./assets/images/birthday-invite.png" width="400" alt="Birthday invite project review "/>
-            </project2> 
-        </projects>
+        <h3>Louisiana State Univeristy (LSU), Baton Rouge, LA | August 2022 - Present</h3>
+        <i>Bachelor of Science, Software Engineering - <mark>GPA: 3.28</mark></i>
+        <h3>Related Coursework:</h3>
+        <ul><li>Advanced Data Structures & Algorithms, System Programming, 
+            Computer Organization & Design, Numerical Methods, Discrete Structures
+        </ul></li>
+    </education>  
+    <experience>
+        <h2>Experience 💼</h2>
         <hr />
-        <footer>
-            <a href="./public/about.html">About Me</a>
-            <a href="./public/contact.html">Contact Me</a>
-        </footer>
-    </body>
+        <h3>Summer Intern | June 2021 - Present</h3>
+        <i>VeraPro, Gonzales, LA</i>
+        <ul>
+            <li>Arranged laptops/computers for teachers & students throughout schools for upcoming school year </li>
+            <li>Restructured computer workstations to increase efficiency and productivity </li>
+            <li>Repaired and cleaned faulty laptops  </li>
+            <li>Assisted in upgrading other school districts’ technological infrastructure </li>
+        </ul>
+    </experience>
+    <skills>
+        <h2>Skills 🏆</h2>
+        <hr />
+        <ul>
+            <li>Profficient in <mark>Java, C 🧑‍💻</mark></li>
+            <li>Effectivtely Communicate with peers</li>
+            <li>Quickly adapt to new environments</li>
+            <li>Overcome difficult challenges</li>
+        </ul>
+    </skills>
+    </div>
+</body>
 </html>
